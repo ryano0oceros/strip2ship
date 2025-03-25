@@ -1,0 +1,15 @@
+# Log files
+processed_repository.log
+strip2ship.log
+
+# Data files
+process_files.json
+final_summary.txt
+
+# Source and destination directories
+src/*
+dest*
+
+# Ensure directories are tracked but their contents are ignored
+!src/.gitkeep
+!dest/.gitkeep 
